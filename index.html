@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basharat Umar | Web Developer Portfolio</title>
+  <meta name="description" content="Basharat Umar, web developer. React, Next.js and fast static websites: e-commerce stores, admin dashboards, SaaS products and SEO tool sites." />
+  <meta property="og:title" content="Basharat Umar | Web Developer Portfolio" />
+  <meta property="og:description" content="React, Next.js and static websites built for real use." />
+  <meta property="og:image" content="images/luxeora.png" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="glow glow-1" aria-hidden="true"></div>
+  <div class="glow glow-2" aria-hidden="true"></div>
+
+  <header class="nav" id="top">
+    <div class="container nav-inner">
+      <a href="#top" class="logo"><span class="logo-mark">BU</span><span>Basharat Umar</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn-small">Hire me</a>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero container">
+      <p class="pill reveal"><span class="dot"></span> Available for freelance work</p>
+      <h1 class="reveal">I build <span class="grad">fast, modern websites</span> that people actually use.</h1>
+      <p class="lead reveal">Web developer working with React, Next.js and plain HTML/CSS/JS. Online stores, admin dashboards, SaaS products and SEO-ready tool sites, from design to deploy.</p>
+      <div class="hero-cta reveal">
+        <a href="#work" class="btn">See my work</a>
+        <a href="#contact" class="btn btn-ghost">Contact me</a>
+      </div>
+      <ul class="stats reveal">
+        <li><strong data-count="4">0</strong><span>Projects in this portfolio</span></li>
+        <li><strong data-count="25">0</strong><span>Working browser tools</span></li>
+        <li><strong data-count="12">0</strong><span>Pages in one store</span></li>
+        <li><strong>375px+</strong><span>Every site is responsive</span></li>
+      </ul>
+    </section>
+
+    <!-- WORK -->
+    <section class="section container" id="work">
+      <div class="section-head reveal">
+        <p class="eyebrow">Selected work</p>
+        <h2>Projects</h2>
+      </div>
+      <div class="filters reveal" role="tablist" aria-label="Filter projects">
+        <button class="chip active" data-filter="all">All</button>
+        <button class="chip" data-filter="react">React</button>
+        <button class="chip" data-filter="static">HTML / CSS / JS</button>
+      </div>
+
+      <div class="projects">
+        <article class="project reveal" data-tags="react">
+          <a class="shot" href="images/luxeora.png" target="_blank" rel="noopener"><img src="images/luxeora.png" alt="LUXEORA fashion store home page" loading="lazy" /></a>
+          <div class="project-body">
+            <p class="kicker">E-commerce · React 19</p>
+            <h3>LUXEORA: Fashion Store</h3>
+            <p>A complete online storefront with 12 pages. Live search, category and price filters shared in the URL, product gallery with colour and size choice, cart with promo codes, wishlist and a validated checkout.</p>
+            <ul class="tags"><li>React</li><li>Vite</li><li>React Router</li><li>CSS3</li><li>localStorage</li></ul>
+            <div class="links"><a href="#" data-live="luxeora" class="link">Live demo ↗</a><a href="#" data-code="luxeora" class="link muted">Code</a></div>
+          </div>
+        </article>
+
+        <article class="project reveal" data-tags="react">
+          <a class="shot" href="images/nexora.png" target="_blank" rel="noopener"><img src="images/nexora.png" alt="Nexora Analytics dashboard with charts" loading="lazy" /></a>
+          <div class="project-body">
+            <p class="kicker">SaaS dashboard · React + Recharts</p>
+            <h3>Nexora Analytics: Admin Dashboard</h3>
+            <p>A 12-section admin panel: KPI cards, revenue and sales charts, customers, products, orders and transactions with search, filters, pagination and CSV export. Light, dark and system themes.</p>
+            <ul class="tags"><li>React</li><li>Recharts</li><li>Context API</li><li>Dark mode</li><li>CSV export</li></ul>
+            <div class="links"><a href="#" data-live="nexora" class="link">Live demo ↗</a><a href="#" data-code="nexora" class="link muted">Code</a></div>
+          </div>
+        </article>
+
+        <article class="project reveal" data-tags="static">
+          <a class="shot" href="images/toolifyhub.png" target="_blank" rel="noopener"><img src="images/toolifyhub.png" alt="ToolifyHub free online tools home page" loading="lazy" /></a>
+          <div class="project-body">
+            <p class="kicker">Tools website · Vanilla JS</p>
+            <h3>ToolifyHub: 25 Free Online Tools</h3>
+            <p>Text, image, developer and calculator tools that run fully in the browser, with no uploads to a server. Includes a hand-written QR encoder, a page generator for 33 SEO pages with structured data, and dark mode.</p>
+            <ul class="tags"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>SEO</li><li>Node build script</li></ul>
+            <div class="links"><a href="#" data-live="toolifyhub" class="link">Live demo ↗</a><a href="#" data-code="toolifyhub" class="link muted">Code</a></div>
+          </div>
+        </article>
+
+        <article class="project reveal" data-tags="static">
+          <a class="shot" href="images/little-glamour.png" target="_blank" rel="noopener"><img src="images/little-glamour.png" alt="Little Glamour Studio dress gallery" loading="lazy" /></a>
+          <div class="project-body">
+            <p class="kicker">Gallery website · Vanilla JS</p>
+            <h3>Little Glamour Studio: Dress Gallery</h3>
+            <p>A Pinterest-style gallery of 65 original dress photos in 8 categories, with search, a page for each dress, and an admin tool that generates the data file and sitemap. Built for Google Images SEO.</p>
+            <ul class="tags"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Image SEO</li><li>Netlify</li></ul>
+            <div class="links"><a href="#" data-live="littleglamour" class="link">Live demo ↗</a><a href="#" data-code="littleglamour" class="link muted">Code</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section container" id="skills">
+      <div class="section-head reveal">
+        <p class="eyebrow">Toolbox</p>
+        <h2>Skills</h2>
+      </div>
+      <div class="skills">
+        <div class="skill-card reveal">
+          <h3>Frontend</h3>
+          <ul><li>React 19</li><li>Next.js 14</li><li>TypeScript</li><li>JavaScript (ES2023)</li><li>HTML5 &amp; CSS3</li><li>Tailwind CSS</li></ul>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Backend &amp; data</h3>
+          <ul><li>Supabase</li><li>PostgreSQL</li><li>Firebase</li><li>REST APIs</li><li>localStorage apps</li></ul>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Ship &amp; grow</h3>
+          <ul><li>Vite</li><li>Netlify / Vercel</li><li>Git &amp; GitHub</li><li>Technical SEO</li><li>Responsive design</li></ul>
+        </div>
+        <div class="skill-card reveal">
+          <h3>Mobile</h3>
+          <ul><li>Flutter</li><li>Flame games</li><li>Android (APK / AAB)</li><li>AdMob</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section container about" id="about">
+      <div class="reveal">
+        <p class="eyebrow">About</p>
+        <h2>Hi, I'm Basharat.</h2>
+      </div>
+      <div class="about-text reveal">
+        <p>I'm a web developer from Pakistan. I like building things that solve a real problem: a school that needs its notes online, a shop that needs a clean store, a team that needs its numbers on one screen.</p>
+        <p>Every project here is responsive from big screens down to 375px phones, loads fast, and is written so the next developer can read it. I also build Android apps and games with Flutter.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section container" id="contact">
+      <div class="contact-card reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Have a project in mind?</h2>
+        <p class="lead">Tell me what you need. I usually reply within a day.</p>
+        <div class="hero-cta">
+          <a href="#" class="btn" data-contact="email">Email me</a>
+          <a href="#" class="btn btn-ghost" data-contact="whatsapp" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="#" class="btn btn-ghost" data-contact="github" target="_blank" rel="noopener">GitHub</a>
+          <a href="#" class="btn btn-ghost" data-contact="linkedin" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>© <span id="year"></span> Basharat Umar</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
